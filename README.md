@@ -9,4 +9,4 @@ This is my attempt to port [iOS segmented control](https://developer.apple.com/i
 
 
 
-  [1]: https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.png
+  [1]: hhttps://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.jpg
