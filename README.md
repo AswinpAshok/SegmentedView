@@ -1,6 +1,8 @@
 # SegmentedView
 
-This is my attempt to port [iOS segmented control](https://developer.apple.com/ios/human-interface-guidelines/controls/segmented-controls/) to android
+This is my attempt to port [iOS segmented control](https://developer.apple.com/ios/human-interface-guidelines/controls/segmented-controls/) to android.
+
+Currently only horizontal orientation is supported.
 
 ## Screnshot 
 
