@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andro.aswin.switcherview.MainActivity">
+
+
+    <com.andro.aswin.switcherview.SegmentGroup
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/group">
+
+        <com.andro.aswin.switcherview.SegmentView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="Aswin"
+            app:textSize="14sp"
+            android:id="@+id/seg_1"
+            app:isFirstSegment="true"/>
+        <com.andro.aswin.switcherview.SegmentView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="Arjun"
+            app:textSize="14sp"
+            android:id="@+id/seg_2"/>
+
+        <com.andro.aswin.switcherview.SegmentView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="Amal"
+            app:textSize="14sp"
+            android:id="@+id/seg_3"/>
+        <com.andro.aswin.switcherview.SegmentView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="Vishnu"
+            app:textSize="14sp"
+            android:id="@+id/seg_4"
+            app:isLastSegment="true"
+            android:checked="true"/>
+
+    </com.andro.aswin.switcherview.SegmentGroup>
+
+</RelativeLayout>

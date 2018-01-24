@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentView">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColorSelected" format="color"/>
+        <attr name="textColorNormal" format="color"/>
+        <attr name="selectionColor" format="color"/>
+        <attr name="isLastSegment" format="boolean"/>
+        <attr name="isFirstSegment" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SegmentGroup">
+        <!--<attr name="boarderWidth" format="dimension"/>-->
+        <attr name="boarderColor" format="color"/>
+    </declare-styleable>
+</resources>
