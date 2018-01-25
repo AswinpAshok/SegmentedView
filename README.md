@@ -101,7 +101,7 @@ To use this library, add
 * Use `SegmentView` and `SegmentGroup` dimensions (height and width) as `wrap_content`.
 * Don't forget to assign `id` for SegmentedViews.
 * Don't forget to add `android:orientation="horizontal"` to `SegmentGroup`
-* Declare `app` manespace as `xmlns:app="http://schemas.android.com/apk/res-auto"`.
+* Declare `app` namespace as `xmlns:app="http://schemas.android.com/apk/res-auto"`.
 * Use `app:text` to set text to the view.
 * For the first `SegmentView`, you should add `app:isFirstSegment="true"`.
 * For the last `SegmentView`, you should add `app:isLastSegment="true"`.
