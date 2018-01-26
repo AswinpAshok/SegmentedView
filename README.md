@@ -2,18 +2,33 @@
 
 This is my attempt to port [iOS segmented control](https://developer.apple.com/ios/human-interface-guidelines/controls/segmented-controls/) to android.
 
-Currently only horizontal orientation is supported.
+Currently only horizontal orientation is supported. Don't forget to read Important notes section at the bottom.
 
 ## Screnshot 
 
 ![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.jpg
 )
 
+![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/20180126_142536.gif)
+
 To use this library, add
 
     compile 'com.aswin:segmentedcontrol:1.0.0'
     
  to your app level build.gradle file
+ 
+ ## XML Attributes (Referenceable in `app` namespace)
+ * SegmentView
+    * `text` as string : To set text in view. [Mandatory]
+    * `textSize` as dimension in `sp` unit : To specify text size. [Mandatory]
+    * `selectionColor` as color string : Background color for selected/active segment.
+    * `textColorNormal` as color string : Text color of inactive segment.
+    * `textColorSelected` as color string : Text color of inactive segment.
+    * `isFirstSegment` as boolean : To identify first segment (This is important). [Mandatory for first segment]
+    * `isLastSegment` as boolean : To identify last segment (This is important). [Mandatory for last segment]
+   
+ * SegmentGroup
+    * `boarderColor`  as color string : Color for boarder (rectangle enclosing the segments).
  
  ## Usage
  
@@ -99,12 +114,14 @@ To use this library, add
     
 **Important notes**
 * Use `SegmentView` and `SegmentGroup` dimensions (height and width) as `wrap_content`.
-* Don't forget to assign `id` for SegmentedViews.
+* Don't forget to assign `id` for SegmentedViews, if you do, you may have issues with switching selections.
 * Don't forget to add `android:orientation="horizontal"` to `SegmentGroup`
 * Declare `app` namespace as `xmlns:app="http://schemas.android.com/apk/res-auto"`.
 * Use `app:text` to set text to the view.
 * For the first `SegmentView`, you should add `app:isFirstSegment="true"`.
 * For the last `SegmentView`, you should add `app:isLastSegment="true"`.
+* `boarderColor` of SegmentGroup and `selectionColor` of all the SegmentViews it encloses should be the same.
+* `textSize` of all SegmentViews inside a SegmentGroup should be the same.
 
 
 
