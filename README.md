@@ -22,7 +22,7 @@ To use this library, add
     * `textSize` as dimension in `sp` unit : To specify text size. [Mandatory]
     * `selectionColor` as color string : Background color for selected/active segment.
     * `textColorNormal` as color string : Text color of inactive segment.
-    * `textColorSelected` as color string : Text color of inactive segment.
+    * `textColorSelected` as color string : Text color of active segment.
     * `isFirstSegment` as boolean : To identify first segment (This is important). [Mandatory for first segment]
     * `isLastSegment` as boolean : To identify last segment (This is important). [Mandatory for last segment]
    
