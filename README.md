@@ -4,7 +4,7 @@ This is my attempt to port [iOS segmented control](https://developer.apple.com/i
 
 Currently only horizontal orientation is supported. Don't forget to read Important notes section at the bottom.
 
-## Screnshot 
+## Screenshots 
 
 ![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.png)
 
