@@ -6,8 +6,7 @@ Currently only horizontal orientation is supported. Don't forget to read Importa
 
 ## Screnshot 
 
-![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.jpg
-)
+![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/Screenshot.png)
 
 ![](https://raw.githubusercontent.com/AswinpAshok/SegmentedView/master/ScreenShot/20180126_142536.gif)
 
