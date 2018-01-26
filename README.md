@@ -86,25 +86,25 @@ To use this library, add
         public void onCheckedChanged(RadioGroup group, int checkedId) {
             switch (checkedId){
             
-                case(R.id.seg_1) :{
+                case(R.id.seg_1) :
                     Toast.makeText(MainActivity.this,segment_1.getText(),Toast.LENGTH_SHORT).show();
                     //SEGMENT_1 CLICKED, DO YOUR STUFF HERE
-                }break;
+                    break;
                    
-                case (R.id.seg_2):{
+                case (R.id.seg_2):
                     Toast.makeText(MainActivity.this,segment_2.getText(),Toast.LENGTH_SHORT).show();
                     //SEGMENT_2 CLICKED, DO YOUR STUFF HERE
-                }break;
+                    break;
                 
-                case (R.id.seg_3):{
+                case (R.id.seg_3):
                     Toast.makeText(MainActivity.this,segment_3.getText(),Toast.LENGTH_SHORT).show();
                     //SEGMENT_3 CLICKED, DO YOUR STUFF HERE
-                }break;
+                    break;
                 
-                case (R.id.seg_4):{
+                case (R.id.seg_4): 
                     Toast.makeText(MainActivity.this,segment_4.getText(),Toast.LENGTH_SHORT).show();
                     //SEGMENT_4 CLICKED, DO YOUR STUFF HERE
-                }break;
+                    break;
                    
                default: break;
             }
