@@ -25,6 +25,7 @@ To use this library, add
     * `textColorSelected` as color string : Text color of active segment.
     * `isFirstSegment` as boolean : To identify first segment (This is important). [Mandatory for first segment]
     * `isLastSegment` as boolean : To identify last segment (This is important). [Mandatory for last segment]
+    * `checked="boolean"` (in default `android` namespace) is also supported, if you need a SegmentView to be checked by default.
    
  * SegmentGroup
     * `boarderColor`  as color string : Color for boarder (rectangle enclosing the segments).
